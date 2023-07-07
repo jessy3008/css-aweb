@@ -1,0 +1,31 @@
+div{
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    align-items: center;
+
+}
+
+.filho{
+    background-color: pink;
+    border: solid black;
+    width: 200px
+}
+
+.container{
+    display: flex;
+    background-color: rgb(216, 173, 117);
+}
+
+.side{
+    width: 100px;
+    width: 100px;
+    flex: 2 3 200px
+    
+}
+
+.center{
+    background-color: antiquewhite;
+    width: 100px;
+    flex: 2 3 200px
+}
