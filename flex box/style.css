@@ -4,6 +4,7 @@ div{
     height: 500px;
     align-items: center;
     flex-wrap: wrap-reverse;
+    background-color: rgb(25, 136, 136);
 
 
 }
@@ -30,4 +31,40 @@ div{
     background-color: antiquewhite;
     width: 100px;
     flex: 2 3 200px
+}
+
+.container2{
+    display:flex;
+    height: 500px;
+    background-color:aqua
+}
+
+.flex-item{
+    height: 100px;
+    width: 100%;
+    background-color: aquamarine;
+    align-content: flex-start;
+}
+
+.container3{
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    background-color:brown;
+    align-content: center;
+    flex-direction:column;
+}
+
+.flex-direction{
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    background-color:blueviolet;
+    align-content: center;
+    flex-direction:row;
+
 }
